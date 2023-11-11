@@ -98,9 +98,9 @@ def flash_nrf51(jtag, softdevice, bootloader, board, firmware):
         sys.exit()
 
     if flash_status != 0:
-        print "Flash FAILED"
+        print("Flash FAILED")
     else:
-        print "Flash OK"
+        print("Flash OK")
 
 
 if __name__ == '__main__':
