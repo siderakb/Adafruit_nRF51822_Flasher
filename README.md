@@ -1,5 +1,8 @@
 # Adafruit nRF51822 Flasher
 
+> **Note**
+> SideraKB's revision.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
@@ -25,17 +28,16 @@ This is useful if you need to de-brick a board that failed a DFU update, or some
 
 The [Adafruit_BluefruitLE_Firmware](https://github.com/adafruit/Adafruit_BluefruitLE_Firmware) folder is setup as a git submodule, linked to an external repo. you will need to clone this with --recursive flag
 
-	git clone --recursive git@github.com:adafruit/Adafruit_nRF51822_Flasher.git
+	git clone --recursive https://github.com/siderakb/Adafruit_nRF51822_Flasher.git
 
 If the folder is empty, you will need to run the following commands to fill it:
 
-	git submodule init
-	git submodule update
+	git submodule update --init
 
 If you aren't operating from a git repo, you can fill the `Adafruit_BluefruitLE_Firmware` folder from the command-line with the following command:
 
-	git clone git@github.com:adafruit/Adafruit_BluefruitLE_Firmware.git
-
+	git clone https://github.com/siderakb/Adafruit_BluefruitLE_Firmware.git
+ 
 ## Requirements
 
 ### General Requirements
